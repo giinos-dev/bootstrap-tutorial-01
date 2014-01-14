@@ -8,24 +8,28 @@
 <body>
 	<div class="container">
 		
+		<div class="row" style="margin-top:10px;">
+			<span style="color:rgb(200,75,75);">"screen width &lt; 768px use xs-*", "screen width &gt; 768px, &lt; 992px use sm-*", "screen width &gt; 992px, &lt; 1200px use md-*", "screen width &gt; 1200px use lg-*".</span>
+		</div>
+
 		<!-- First row have a column but contain 6 bootstrap columns -->
-		<div class="row">
-			<div class="col-xs-12 col-sm-6 col-md-12 col-lg-6" style="background: rgb(255,100,100);height:150px;">a</div>
+		<div class="row" style="margin-top:10px;">
+			<div class="col-xs-12 col-sm-6 col-md-12 col-lg-6" style="background: rgb(255,100,100);height:150px;">xs-12, sm-6, md-12, lg-6</div>
 		</div>
 
 		<!-- Second row have two columns and contain 10 and 2 by order -->
-		<div class="row">
-			<div class="col-xs-12 col-sm-6 col-md-10 col-lg-7" style="background: rgb(100,100,255);height:150px;">a</div>
-			<div class="col-xs-12 col-sm-6 col-md-2 col-lg-5" style="background: rgb(100,100,100);height:150px;">b</div>
+		<div class="row" style="margin-top:10px;">
+			<div class="col-xs-12 col-sm-6 col-md-10 col-lg-7" style="background: rgb(100,100,255);height:150px;">xs-12, sm-6, md-10, lg-7</div>
+			<div class="col-xs-12 col-sm-6 col-md-2 col-lg-5" style="background: rgb(100,100,100);height:150px;color:white;">xs-12, sm-6, md-2, lg-5</div>
 		</div>
 
-		<!-- Third row have three columns and contain 2, 8 and 2 by order -->
-		<div class="row">
-			<div class="col-xs-12 col-sm-4 col-md-2 col-lg-10" style="background: rgb(100,175,255);height:150px;">a</div>
-			<div class="col-xs-12 col-sm-4 col-md-8 col-lg-1" style="background: rgb(100,175,100);height:150px;">b</div>
-			<div class="col-xs-12 col-sm-4 col-md-2 col-lg-1" style="background: rgb(100,50,100);height:150px;">c</div>
+		<!-- Third row have three columns and contain 10, 1 and 1 by order -->
+		<div class="row" style="margin-top:10px;">
+			<div class="col-xs-12 col-sm-4 col-md-2 col-lg-10" style="background: rgb(100,175,255);height:150px;">xs-12, sm-4, md-2, lg-10</div>
+			<div class="col-xs-12 col-sm-4 col-md-8 col-lg-1" style="background: rgb(100,175,100);height:150px;">xs-12, sm-4, md-8, lg-1</div>
+			<div class="col-xs-12 col-sm-4 col-md-2 col-lg-1" style="background: rgb(100,50,100);height:150px;color:white;">xs-12, sm-4, md-2, lg-1</div>
 		</div>
-
+		
 	</div>
 </body>
 </html>
